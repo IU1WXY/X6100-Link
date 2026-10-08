@@ -1,0 +1,30 @@
+name: Problem with the app / Problema con l'app
+description: Something in X6100 Link does not work as it should
+labels: [bug]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App version / Versione dell'app
+      description: SET, at the bottom (e.g. 0.107)
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version / Versione del firmware
+      description: On the radio, Settings → Info
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone or tablet / Telefono o tablet
+      description: Model and Android version
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens / Cosa succede
+      description: What you were doing, what you expected, how to make it happen again. Screenshots help.
+    validations:
+      required: true

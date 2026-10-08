@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Firmware problems / Problemi del firmware
+    url: https://x6100-link.it/report.php
+    about: Problems of the radio firmware go on the website / I problemi del firmware si segnalano sul sito
