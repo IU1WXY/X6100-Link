@@ -1,6 +1,6 @@
 # X6100 Link: privacy policy
 
-*Last updated: 8 October 2026* · [Italiano](#italiano)
+*Last updated: 10 October 2026* · [Italiano](#italiano)
 
 X6100 Link is an Android app by Giovanni Ricciardi IU1WXY that remote-controls a Xiegu X6100 radio running the
 X6100-IU1WXY firmware, over the local network.
@@ -22,6 +22,14 @@ X6100-IU1WXY firmware, over the local network.
 - No account, no server of the developer: no data is sent to the developer or to anyone else.
 - No advertising, no analytics, no tracking, no data sold or shared.
 
+## Use at your own risk
+
+X6100 Link controls a radio transmitter. It is provided as is, without any warranty: you use it at your own risk,
+and you are responsible for respecting your licence and your country's rules when you transmit.
+
+The radio's firmware has its own notice: it sends nothing to the developer, and contacts external services (POTA,
+QRZ Logbook, WSPRnet, DX Cluster) only when you use those features. See [x6100-link.it/privacy.php](https://x6100-link.it/privacy.php).
+
 ## Deleting your data
 
 Uninstalling the app, or clearing its data in Android's settings, deletes everything the app stores on the phone.
@@ -36,7 +44,7 @@ Giovanni Ricciardi IU1WXY: [info@x6100-link.it](mailto:info@x6100-link.it), or t
 
 ## Italiano
 
-*Ultimo aggiornamento: 8 ottobre 2026*
+*Ultimo aggiornamento: 10 ottobre 2026*
 
 X6100 Link è un'app Android di Giovanni Ricciardi IU1WXY per comandare a distanza una radio Xiegu X6100 con il
 firmware X6100-IU1WXY, attraverso la rete locale.
@@ -57,6 +65,14 @@ firmware X6100-IU1WXY, attraverso la rete locale.
 
 - Nessun account, nessun server dello sviluppatore: nessun dato viene inviato allo sviluppatore o ad altri.
 - Niente pubblicità, statistiche d'uso o tracciamento; nessun dato venduto o condiviso.
+
+### Uso a tua responsabilità
+
+X6100 Link comanda un trasmettitore radio. È fornita così com'è, senza alcuna garanzia: la usi sotto la tua
+responsabilità, e sta a te rispettare la tua licenza e le norme del tuo paese quando trasmetti.
+
+Il firmware della radio ha una sua informativa: non manda nulla allo sviluppatore e si collega a servizi esterni
+(POTA, QRZ Logbook, WSPRnet, DX Cluster) solo quando usi quelle funzioni. Vedi [x6100-link.it/privacy.php](https://x6100-link.it/privacy.php?lang=it).
 
 ### Cancellare i dati
 
