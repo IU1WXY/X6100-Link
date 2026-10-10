@@ -68,8 +68,8 @@ App and firmware go together: keep both at the latest version.
 
 ## Problems and ideas
 
-Open an **[issue](../../issues/new/choose)**: write the app and firmware versions, your phone or tablet
-and what happens. Firmware problems go on the [website](https://x6100-link.it/report.php).
+Report them on the website, **[x6100-link.it](https://x6100-link.it/report.php)**: write the app and
+firmware versions, your phone or tablet and what happens.
 
 ## Privacy
 
@@ -95,5 +95,5 @@ e le segnalazioni; l'app si scarica da Google Play.
 - **SOTA e POTA** con il Field Ops della radio; il GPS del telefono dà la posizione alla radio.
 - **Quattro temi**, telefoni e tablet, verticale e orizzontale.
 
-Problemi o idee: apri una **[issue](../../issues/new/choose)**. Privacy: [PRIVACY.md](PRIVACY.md).
+Problemi o idee: segnalali sul sito, **[x6100-link.it](https://x6100-link.it/report.php?lang=it)**. Privacy: [PRIVACY.md](PRIVACY.md).
 Tutto il resto su **[x6100-link.it](https://x6100-link.it/link-it.html)**.

@@ -29,8 +29,8 @@ QSO logs are on your radio's SD card and are yours to keep or delete.
 
 ## Contact
 
-Giovanni Ricciardi IU1WXY: [info@x6100-link.it](mailto:info@x6100-link.it), or an
-[issue in this repository](https://github.com/IU1WXY/X6100-Link/issues).
+Giovanni Ricciardi IU1WXY: [info@x6100-link.it](mailto:info@x6100-link.it), or the
+[website](https://x6100-link.it/report.php).
 
 ---
 
@@ -65,5 +65,5 @@ telefono. I log dei QSO sono sulla scheda SD della radio: restano tuoi, da tener
 
 ### Contatti
 
-Giovanni Ricciardi IU1WXY: [info@x6100-link.it](mailto:info@x6100-link.it), oppure una
-[issue in questo repository](https://github.com/IU1WXY/X6100-Link/issues).
+Giovanni Ricciardi IU1WXY: [info@x6100-link.it](mailto:info@x6100-link.it), oppure il
+[sito](https://x6100-link.it/report.php?lang=it).
