@@ -19,7 +19,8 @@ X6100-IU1WXY firmware, over the local network.
 
 ## What the app does not do
 
-- No account, no server of the developer: no data is sent to the developer or to anyone else.
+- No account: no data is sent to the developer or to anyone else.
+- The app and the radio contact the x6100-link.it server to check for updates.
 - No advertising, no analytics, no tracking, no data sold or shared.
 
 ## Use at your own risk
@@ -63,7 +64,8 @@ firmware X6100-IU1WXY, attraverso la rete locale.
 
 ### Cosa l'app non fa
 
-- Nessun account, nessun server dello sviluppatore: nessun dato viene inviato allo sviluppatore o ad altri.
+- Nessun account: nessun dato viene inviato allo sviluppatore o ad altri.
+- L'app e la radio contattano il server x6100-link.it per cercare aggiornamenti.
 - Niente pubblicità, statistiche d'uso o tracciamento; nessun dato venduto o condiviso.
 
 ### Uso a tua responsabilità
