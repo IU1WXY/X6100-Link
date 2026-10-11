@@ -1,6 +1,6 @@
 # X6100 Link: privacy policy
 
-*Last updated: 10 October 2026* · [Italiano](#italiano)
+*Last updated: 11 October 2026* · [Italiano](#italiano)
 
 X6100 Link is an Android app by Giovanni Ricciardi IU1WXY that remote-controls a Xiegu X6100 radio running the
 X6100-IU1WXY firmware, over the local network.
@@ -20,7 +20,7 @@ X6100-IU1WXY firmware, over the local network.
 ## What the app does not do
 
 - No account: no data is sent to the developer or to anyone else.
-- The app and the radio contact the x6100-link.it server to check for updates.
+- The app and the radio contact the x6100-link.it server to check for updates. Every 5 minutes the app and the radio send an anonymous signal with the version and the QTH set on the radio, to show the map on the website and update the real-time counter. The data is anonymised and NOT linked to accounts of any kind.
 - No advertising, no analytics, no tracking, no data sold or shared.
 
 ## Use at your own risk
@@ -45,7 +45,7 @@ Giovanni Ricciardi IU1WXY: [giovanni@iu1wxy.com](mailto:giovanni@iu1wxy.com), or
 
 ## Italiano
 
-*Ultimo aggiornamento: 10 ottobre 2026*
+*Ultimo aggiornamento: 11 ottobre 2026*
 
 X6100 Link è un'app Android di Giovanni Ricciardi IU1WXY per comandare a distanza una radio Xiegu X6100 con il
 firmware X6100-IU1WXY, attraverso la rete locale.
@@ -65,7 +65,7 @@ firmware X6100-IU1WXY, attraverso la rete locale.
 ### Cosa l'app non fa
 
 - Nessun account: nessun dato viene inviato allo sviluppatore o ad altri.
-- L'app e la radio contattano il server x6100-link.it per cercare aggiornamenti.
+- L'app e la radio contattano il server x6100-link.it per cercare aggiornamenti. Ogni 5 minuti app e radio mandano un segnale anonimo con la versione e il QTH impostato sulla radio, per visualizzare la mappa che si trova nel sito ed aggiornare il counter in tempo reale. I dati sono anonimizzati e NON collegati ad utenze di alcun tipo.
 - Niente pubblicità, statistiche d'uso o tracciamento; nessun dato venduto o condiviso.
 
 ### Uso a tua responsabilità
