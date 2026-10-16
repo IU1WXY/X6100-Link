@@ -14,7 +14,9 @@ X6100-IU1WXY firmware, over the local network.
   the app's settings ("Send phone position") or deny the permission.
 - **QRZ.com.** If you enter a QRZ.com login, the app looks up the callsigns you type on QRZ.com
   (`xmldata.qrz.com`) and loads their profile photos from QRZ.com. Your QRZ.com user name and password are stored
-  only on your phone and sent only to QRZ.com. Without a login no lookup is made.
+  only on your phone and sent only to QRZ.com. Without a login no lookup is made. In CW, with the login, decoded
+  words that look like callsigns and that the radio hasn't confirmed yet are looked up the same way; the ones
+  found are passed back to the radio.
 - **Settings** (theme, language, volume and so on) stay on your phone.
 
 ## What the app does not do
@@ -59,7 +61,9 @@ firmware X6100-IU1WXY, attraverso la rete locale.
   impostazioni dell'app ("Invia posizione del telefono") o negare il permesso.
 - **QRZ.com.** Se inserisci un login QRZ.com, l'app cerca su QRZ.com (`xmldata.qrz.com`) i nominativi che scrivi e
   ne carica le foto del profilo da QRZ.com. Nome utente e password QRZ.com restano solo sul telefono e vengono
-  inviati solo a QRZ.com. Senza login non viene fatta nessuna ricerca.
+  inviati solo a QRZ.com. Senza login non viene fatta nessuna ricerca. In CW, con il login, le parole decodificate
+  che sembrano nominativi e che la radio non ha ancora confermato vengono cercate allo stesso modo; quelle trovate
+  tornano alla radio.
 - **Le impostazioni** (tema, lingua, volume e simili) restano sul telefono.
 
 ### Cosa l'app non fa
