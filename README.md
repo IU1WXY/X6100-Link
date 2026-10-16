@@ -18,17 +18,27 @@ bug reports; the app itself is distributed through Google Play.
 ## The radio in your hand
 
 - Frequency, band, mode, tuning step and a VFO knob (bigger on tablets).
+- Tap the frequency: a bigger box with ▲ and ▼ on each digit, no keyboard needed.
 - Live **spectrum and waterfall** with frequency scale, IARU band plan, VFO line and filter passband:
-  tap or drag to tune, pinch to zoom.
-- S-meter, preamp, attenuator, NB, NR, AGC, squelch, filter width, RF gain and TX power.
+  tap or drag to tune, pinch to zoom. Waterfall colours: Classic, Grey, Fire, Ice, Rainbow.
+- S-meter, preamp, attenuator, NB, NR, AGC, squelch, filter width, RF gain and TX power. The needle
+  S-meter follows the audio at 15 readings a second with firmware 0.126.
 - **RX audio on the phone**, with its own volume.
 - The DX cluster as on the radio: calls over the waterfall and a column of spots around the VFO.
+  SET > DX cluster has the radio's filters (modes, bands, activities), max age, skipped spotters and
+  callsign alerts, synced both ways.
+- SET laid out like the radio's Settings, with QRZ first: log in, test and log out in place.
 
 ## Every digital mode, with TX
 
-The radio decodes and transmits, the phone is the screen and the keyboard: **FT8 / FT4**, **JS8**,
-**WSPR**, **SSTV** (pictures from the gallery or the camera), **WeFax**, **RTTY**, **CW** with macros,
-**NavTex** (receive).
+The radio decodes and transmits, the phone is the screen and the keyboard: **FT8 / FT4 / FT2**,
+**JS8**, **WSPR**, **SSTV** (pictures from the gallery or the camera), **WeFax**, **RTTY**,
+**PSK31/63**, **Olivia**, **JTTY**, **CW** with macros, **NavTex** (receive). PSK, Olivia and JTTY show
+the decoded text, the audio frequency and macros; sending them needs firmware 0.126.
+
+CW splits the words and colours them as the radio does. With your QRZ login, calls the radio hasn't
+confirmed yet are checked on QRZ, and the ones found go back to the radio. In CW macros `{HIS}` is the
+call in LOG, so F2 can be "{HIS} UR 599 599 BK".
 
 ## A logger for every QSO
 
@@ -89,8 +99,18 @@ e le segnalazioni; l'app si scarica da Google Play.
 
 - **La radio in mano**: frequenza, banda, modo, manopola VFO, spettro e waterfall, comandi, audio di
   ricezione sul telefono, DX cluster.
-- **Tutti i modi digitali con la trasmissione**: FT8/FT4, JS8, WSPR, SSTV, WeFax, RTTY, CW con macro,
-  NavTex in ricezione.
+- Tocca la frequenza: un riquadro più grande con ▲ e ▼ su ogni cifra, senza tastiera.
+- Colori del waterfall: Classic, Grey, Fire, Ice, Rainbow. S-meter a lancetta che segue l'audio con
+  15 letture al secondo col firmware 0.126.
+- SET come le Settings della radio, con QRZ per primo (accesso, prova e uscita lì dentro). SET > DX
+  cluster: i filtri della radio (modi, bande, attività), età massima, spotter da ignorare e alert sui
+  nominativi, sincronizzati nei due sensi.
+- **Tutti i modi digitali con la trasmissione**: FT8/FT4/FT2, JS8, WSPR, SSTV, WeFax, RTTY, PSK31/63,
+  Olivia, JTTY, CW con macro, NavTex in ricezione. Per trasmettere in PSK, Olivia e JTTY serve il
+  firmware 0.126.
+- **CW**: stessa separazione delle parole e stessi colori della radio. Con il login QRZ, i nominativi
+  che la radio non ha ancora confermato vengono cercati su QRZ, e quelli trovati tornano alla radio.
+  Nelle macro `{HIS}` è il nominativo scritto in LOG, così F2 può essere "{HIS} UR 599 599 BK".
 - **Un logger per ogni QSO**, con ricerca QRZ.com mentre scrivi il nominativo.
 - **SOTA e POTA** con il Field Ops della radio; il GPS del telefono dà la posizione alla radio.
 - **Quattro temi**, telefoni e tablet, verticale e orizzontale.
