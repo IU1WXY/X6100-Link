@@ -1,6 +1,6 @@
 # X6100 Link: privacy policy
 
-*Last updated: 13 October 2026* · [Italiano](#italiano)
+*Last updated: 17 October 2026* · [Italiano](#italiano)
 
 X6100 Link is an Android app by Giovanni Ricciardi IU1WXY that remote-controls a Xiegu X6100 radio running the
 X6100-IU1WXY firmware, over the local network.
@@ -22,7 +22,7 @@ X6100-IU1WXY firmware, over the local network.
 ## What the app does not do
 
 - No account: no data is sent to the developer or to anyone else.
-- The app and the radio contact the x6100-link.it server to check for updates. Every 5 minutes the app and the radio send the site some technical data, including version, QTH, callsign and device codes. I use them for the map, the counter and to manage the devices associated with users. I don't share them with anyone. For any request, write to me.
+- The app and the radio contact the x6100-link.it server to check for updates. Every 5 minutes the app and the radio send the site some technical data, including version, the radio's system number, QTH, callsign and device codes. I use them for the map, the counter and to manage the devices associated with users. I don't share them with anyone. For any request, write to me.
 - No advertising, no analytics, no tracking, no data sold or shared.
 
 ## Use at your own risk
@@ -30,7 +30,8 @@ X6100-IU1WXY firmware, over the local network.
 X6100 Link controls a radio transmitter. It is provided as is, without any warranty: you use it at your own risk,
 and you are responsible for respecting your licence and your country's rules when you transmit.
 
-The radio's firmware has its own notice: it sends nothing to the developer, and contacts external services (POTA,
+The radio's firmware has its own notice: it sends nothing to the developer, except the diagnostics you choose
+to send and the outcome of remote updates, and contacts external services (POTA,
 QRZ Logbook, WSPRnet, DX Cluster) only when you use those features. See [x6100-link.it/privacy.php](https://x6100-link.it/privacy.php).
 
 ## Deleting your data
@@ -47,7 +48,7 @@ Giovanni Ricciardi IU1WXY: [giovanni@iu1wxy.com](mailto:giovanni@iu1wxy.com), or
 
 ## Italiano
 
-*Ultimo aggiornamento: 13 ottobre 2026*
+*Ultimo aggiornamento: 17 ottobre 2026*
 
 X6100 Link è un'app Android di Giovanni Ricciardi IU1WXY per comandare a distanza una radio Xiegu X6100 con il
 firmware X6100-IU1WXY, attraverso la rete locale.
@@ -69,7 +70,7 @@ firmware X6100-IU1WXY, attraverso la rete locale.
 ### Cosa l'app non fa
 
 - Nessun account: nessun dato viene inviato allo sviluppatore o ad altri.
-- L'app e la radio contattano il server x6100-link.it per cercare aggiornamenti. Ogni 5 minuti app e radio mandano al sito alcuni dati tecnici, tra cui versione, QTH, nominativo e codici dei dispositivi. Li uso per la mappa, il contatore e la gestione dei dispositivi associati agli utenti. Non li cedo a nessuno. Per qualsiasi richiesta, scrivimi.
+- L'app e la radio contattano il server x6100-link.it per cercare aggiornamenti. Ogni 5 minuti app e radio mandano al sito alcuni dati tecnici, tra cui versione, numero di sistema della radio, QTH, nominativo e codici dei dispositivi. Li uso per la mappa, il contatore e la gestione dei dispositivi associati agli utenti. Non li cedo a nessuno. Per qualsiasi richiesta, scrivimi.
 - Niente pubblicità, statistiche d'uso o tracciamento; nessun dato venduto o condiviso.
 
 ### Uso a tua responsabilità
@@ -77,7 +78,8 @@ firmware X6100-IU1WXY, attraverso la rete locale.
 X6100 Link comanda un trasmettitore radio. È fornita così com'è, senza alcuna garanzia: la usi sotto la tua
 responsabilità, e sta a te rispettare la tua licenza e le norme del tuo paese quando trasmetti.
 
-Il firmware della radio ha una sua informativa: non manda nulla allo sviluppatore e si collega a servizi esterni
+Il firmware della radio ha una sua informativa: non manda nulla allo sviluppatore, tranne la diagnostica se
+decidi tu di inviarla e l'esito degli aggiornamenti a distanza, e si collega a servizi esterni
 (POTA, QRZ Logbook, WSPRnet, DX Cluster) solo quando usi quelle funzioni. Vedi [x6100-link.it/privacy.php](https://x6100-link.it/privacy.php?lang=it).
 
 ### Cancellare i dati
