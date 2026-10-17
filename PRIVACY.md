@@ -17,6 +17,12 @@ X6100-IU1WXY firmware, over the local network.
   only on your phone and sent only to QRZ.com. Without a login no lookup is made. In CW, with the login, decoded
   words that look like callsigns and that the radio hasn't confirmed yet are looked up the same way; the ones
   found are passed back to the radio.
+- **eQSL.** If you enter your eQSL login, EQSL in the LOG tab sends eQSL.cc (`eqsl.cc`) your eQSL callsign and
+  password and today's QSOs not sent yet: callsign, date, time, band, frequency, mode and reports, plus name, QTH,
+  locator and country when the log has them. Nothing is sent until you press EQSL. Your eQSL login is stored only on
+  your phone and sent only to eQSL.cc.
+- **ADIF export.** The exported ADIF file goes only where you choose to share it.
+- **Alerts and quick commands** stay between the phone and the radio, on your local network.
 - **Settings** (theme, language, volume and so on) stay on your phone.
 
 ## What the app does not do
@@ -65,6 +71,12 @@ firmware X6100-IU1WXY, attraverso la rete locale.
   inviati solo a QRZ.com. Senza login non viene fatta nessuna ricerca. In CW, con il login, le parole decodificate
   che sembrano nominativi e che la radio non ha ancora confermato vengono cercate allo stesso modo; quelle trovate
   tornano alla radio.
+- **eQSL.** Se inserisci il tuo login eQSL, EQSL nella scheda LOG manda a eQSL.cc (`eqsl.cc`) nominativo e password
+  eQSL e i QSO di oggi non ancora inviati: nominativo, data, ora, banda, frequenza, modo e rapporti, più nome, QTH,
+  locatore e paese quando sono nel log. Non parte nulla finché non premi EQSL. Il login eQSL resta solo sul telefono e
+  viene inviato solo a eQSL.cc.
+- **Esportazione ADIF.** Il file ADIF esportato va solo dove scegli tu di condividerlo.
+- **Avvisi e comandi rapidi** restano tra telefono e radio, sulla tua rete locale.
 - **Le impostazioni** (tema, lingua, volume e simili) restano sul telefono.
 
 ### Cosa l'app non fa
