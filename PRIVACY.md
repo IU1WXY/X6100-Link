@@ -1,9 +1,9 @@
 # X6100 Link: privacy policy
 
-*Last updated: 17 October 2026* · [Italiano](#italiano)
+*Last updated: 16 November 2026* · [Italiano](#italiano)
 
 X6100 Link is an Android app by Giovanni Ricciardi IU1WXY that remote-controls a Xiegu X6100 radio running the
-X6100-IU1WXY firmware, over the local network.
+X6100 Link firmware, over the local network.
 
 ## What the app uses and where it goes
 
@@ -27,8 +27,16 @@ X6100-IU1WXY firmware, over the local network.
 
 ## What the app does not do
 
-- No account: no data is sent to the developer or to anyone else.
-- The app and the radio contact the x6100-link.it server to check for updates. Every 5 minutes the app and the radio send the site some technical data, including version, the radio's system number, QTH, callsign and device codes. I use them for the map, the counter and to manage the devices associated with users. I don't share them with anyone. For any request, write to me.
+- No account is needed. If you want, SET links the app to your x6100-link.it account with the code the site shows.
+- **Statistics** (on unless you turn it off): the app sends x6100-link.it a random id made when it is installed, the app
+  version, whether it came from Google Play, and the anonymous id of the connected radio (not its serial number), to
+  count the installs. Nothing about you, your position or your QSOs.
+- **New versions** (on unless you turn it off): once a day the app asks x6100-link.it whether there is a new release.
+- **FreeDV Reporter** (on unless you turn it off): while the FreeDV tab is open, the app reports to qso.freedv.org, as
+  every FreeDV station does.
+- Nothing goes out before you answer the notice at the first start; each part can be turned off later in SET › Privacy.
+- **Purchase.** The app is sold on Google Play: Google handles the payment. I see the date, country and amount of a
+  purchase, not your email.
 - No advertising, no analytics, no tracking, no data sold or shared.
 
 ## Use at your own risk
@@ -54,10 +62,10 @@ Giovanni Ricciardi IU1WXY: [giovanni@iu1wxy.com](mailto:giovanni@iu1wxy.com), or
 
 ## Italiano
 
-*Ultimo aggiornamento: 17 ottobre 2026*
+*Ultimo aggiornamento: 16 novembre 2026*
 
 X6100 Link è un'app Android di Giovanni Ricciardi IU1WXY per comandare a distanza una radio Xiegu X6100 con il
-firmware X6100-IU1WXY, attraverso la rete locale.
+firmware X6100 Link, attraverso la rete locale.
 
 ### Cosa usa l'app e dove va
 
@@ -81,8 +89,16 @@ firmware X6100-IU1WXY, attraverso la rete locale.
 
 ### Cosa l'app non fa
 
-- Nessun account: nessun dato viene inviato allo sviluppatore o ad altri.
-- L'app e la radio contattano il server x6100-link.it per cercare aggiornamenti. Ogni 5 minuti app e radio mandano al sito alcuni dati tecnici, tra cui versione, numero di sistema della radio, QTH, nominativo e codici dei dispositivi. Li uso per la mappa, il contatore e la gestione dei dispositivi associati agli utenti. Non li cedo a nessuno. Per qualsiasi richiesta, scrivimi.
+- Non serve un account. Se vuoi, da SET colleghi l'app al tuo account su x6100-link.it con il codice che ti mostra il sito.
+- **Statistiche** (attive finché non le spegni): l'app manda a x6100-link.it un id casuale creato all'installazione, la
+  versione, se viene da Google Play e l'id anonimo della radio collegata (non il numero di serie), per contare le
+  installazioni. Niente su di te, sulla tua posizione o sui tuoi QSO.
+- **Nuove versioni** (attivo finché non lo spegni): una volta al giorno l'app chiede a x6100-link.it se c'è una versione nuova.
+- **FreeDV Reporter** (attivo finché non lo spegni): mentre è aperta la scheda FreeDV, l'app si segnala a qso.freedv.org,
+  come fa ogni stazione FreeDV.
+- Non parte nulla prima che tu risponda all'avviso del primo avvio; ogni parte si spegne poi in SET › Privacy.
+- **Acquisto.** L'app si compra su Google Play: il pagamento lo gestisce Google. Io vedo data, paese e importo di un
+  acquisto, non la tua email.
 - Niente pubblicità, statistiche d'uso o tracciamento; nessun dato venduto o condiviso.
 
 ### Uso a tua responsabilità

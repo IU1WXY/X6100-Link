@@ -9,10 +9,11 @@ every digital mode with TX, a logger for every QSO.</b></p>
 
 <p align="center"><img src="screenshots/tablet-1-ft8.jpg" alt="X6100 Link on a tablet: radio on the left, FT8 on the right" width="800"></p>
 
-X6100 Link is the Android companion app of the **[X6100 IU1WXY firmware](https://x6100-link.it)**.
-It works only with radios running that firmware, not with the stock Xiegu firmware.
+X6100 Link is the Android companion app of the **[X6100 Link firmware](https://x6100-link.it)**.
+It works only with radios running that firmware, not with the stock Xiegu firmware. App 0.2.2 needs
+firmware 0.2.2 or later: keep both at the latest version.
 
-**Coming soon on Google Play.** This repository holds the app's documentation, release notes and
+**[Get it on Google Play](https://play.google.com/store/apps/details?id=com.iu1wxy.x6100link)**. This repository holds the app's documentation, release notes and
 bug reports; the app itself is distributed through Google Play.
 
 ## The radio in your hand
@@ -22,7 +23,8 @@ bug reports; the app itself is distributed through Google Play.
 - Live **spectrum and waterfall** with frequency scale, IARU band plan, VFO line and filter passband:
   tap or drag to tune, pinch to zoom. Waterfall colours: Classic, Grey, Fire, Ice, Rainbow.
 - S-meter, preamp, attenuator, NB, NR, AGC, squelch, filter width, RF gain and TX power. The needle
-  S-meter follows the audio at 15 readings a second with firmware 0.126.
+  S-meter follows the audio at 15 readings a second.
+- **RADIO SCREEN**: the radio's own screen live on the phone, waterfall included.
 - **RX audio on the phone**, with its own volume.
 - The DX cluster as on the radio: calls over the waterfall and a column of spots around the VFO.
   SET > DX cluster has the radio's filters (modes, bands, activities), max age, skipped spotters and
@@ -34,7 +36,7 @@ bug reports; the app itself is distributed through Google Play.
 The radio decodes and transmits, the phone is the screen and the keyboard: **FT8 / FT4 / FT2**,
 **JS8**, **WSPR**, **SSTV** (pictures from the gallery or the camera), **WeFax**, **RTTY**,
 **PSK31/63**, **Olivia**, **JTTY**, **CW** with macros, **NavTex** (receive). PSK, Olivia and JTTY show
-the decoded text, the audio frequency and macros; sending them needs firmware 0.126.
+the decoded text, the audio frequency and macros.
 
 CW splits the words and colours them as the radio does. With your QRZ login, calls the radio hasn't
 confirmed yet are checked on QRZ, and the ones found go back to the radio. In CW macros `{HIS}` is the
@@ -71,8 +73,9 @@ Classic, Pro, Outdoor and Outdoor-Negative for full sunlight. Phones and tablets
 ## How to connect
 
 1. Turn on the phone's hotspot (or use your home WiFi).
-2. On the radio: Settings → Wireless, connect the radio to that network.
+2. On the radio: Settings › Network › Wi-Fi, connect the radio to that network.
 3. Open X6100 Link: it finds the radio by itself. Tap it, or type its IP.
+4. The first time, pair them: the radio shows a code on its screen, type it in the app.
 
 App and firmware go together: keep both at the latest version.
 
@@ -92,28 +95,31 @@ login. Details in [PRIVACY.md](PRIVACY.md).
 
 **X6100 Link** porta il tuo Xiegu X6100 sul telefono o sul tablet, via WiFi: il waterfall in mano, tutti
 i modi digitali con la trasmissione, un logger per ogni QSO. È l'app compagna del
-**[firmware X6100 IU1WXY](https://x6100-link.it/it.html)** e funziona solo con quel firmware.
+**[firmware X6100 Link](https://x6100-link.it/it.html)** e funziona solo con quel firmware. L'app 0.2.2
+richiede il firmware 0.2.2 o successivo: tieni aggiornati tutti e due.
 
-**Presto su Google Play.** Questo repository contiene la documentazione dell'app, le note delle versioni
-e le segnalazioni; l'app si scarica da Google Play.
+**[Scaricala da Google Play](https://play.google.com/store/apps/details?id=com.iu1wxy.x6100link)**. Questo repository contiene la documentazione dell'app, le note delle
+versioni e le segnalazioni; l'app si scarica da Google Play.
 
 - **La radio in mano**: frequenza, banda, modo, manopola VFO, spettro e waterfall, comandi, audio di
   ricezione sul telefono, DX cluster.
+- **RADIO SCREEN**: lo schermo della radio in tempo reale sul telefono, waterfall compreso.
 - Tocca la frequenza: un riquadro più grande con ▲ e ▼ su ogni cifra, senza tastiera.
 - Colori del waterfall: Classic, Grey, Fire, Ice, Rainbow. S-meter a lancetta che segue l'audio con
-  15 letture al secondo col firmware 0.126.
+  15 letture al secondo.
 - SET come le Settings della radio, con QRZ per primo (accesso, prova e uscita lì dentro). SET > DX
   cluster: i filtri della radio (modi, bande, attività), età massima, spotter da ignorare e alert sui
   nominativi, sincronizzati nei due sensi.
 - **Tutti i modi digitali con la trasmissione**: FT8/FT4/FT2, JS8, WSPR, SSTV, WeFax, RTTY, PSK31/63,
-  Olivia, JTTY, CW con macro, NavTex in ricezione. Per trasmettere in PSK, Olivia e JTTY serve il
-  firmware 0.126.
+  Olivia, JTTY, CW con macro, NavTex in ricezione.
 - **CW**: stessa separazione delle parole e stessi colori della radio. Con il login QRZ, i nominativi
   che la radio non ha ancora confermato vengono cercati su QRZ, e quelli trovati tornano alla radio.
   Nelle macro `{HIS}` è il nominativo scritto in LOG, così F2 può essere "{HIS} UR 599 599 BK".
 - **Un logger per ogni QSO**, con ricerca QRZ.com mentre scrivi il nominativo.
 - **SOTA e POTA** con il Field Ops della radio; il GPS del telefono dà la posizione alla radio.
 - **Quattro temi**, telefoni e tablet, verticale e orizzontale.
+- **Collegamento**: hotspot del telefono o WiFi di casa; sulla radio Impostazioni › Rete › Wi-Fi. La prima volta
+  si abbinano: la radio mostra un codice sullo schermo, lo scrivi nell'app.
 
 Problemi o idee: segnalali sul sito, **[x6100-link.it](https://x6100-link.it/report.php?lang=it)**. Privacy: [PRIVACY.md](PRIVACY.md).
 Tutto il resto su **[x6100-link.it](https://x6100-link.it/link-it.html)**.
